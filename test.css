@@ -1,0 +1,38 @@
+.home-serach .lala {display:none;}
+.home-banner .home-serach .search-controls .form-control { width: 87%;}
+.home-banner .banner-quote > h1 { color: #111111 }
+
+/* Show Bottom Notification  */
+        .fixntf-sec {
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+            padding: 20px;
+            background-color: rgba(16, 16, 0, 0.86);
+            color: #fff;
+            font-size: 15px;
+            z-index: 100000;
+        }
+
+        .fixntf-lsec {
+            float: left;
+            width: Calc(100% - 155px);
+            padding-top: 10px;
+        }
+
+            .fixntf-lsec a {
+                text-decoration: underline;
+            }
+
+        .fixntf-rsec {
+            float: right;
+        }
+
+        .fixntf-btn {
+            background-color: #333;
+            padding: 9px 20px;
+            font-size: 14px;
+            border: 1px solid #ddd;
+            display: inline-block;
+        }
+        /*END Show Bottom Notification  */
